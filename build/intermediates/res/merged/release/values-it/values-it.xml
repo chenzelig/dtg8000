@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="AGPS">AGPS</string>
+    <string name="AGPS_is">AGPS é</string>
+    <string name="AGPS_setup">configuração do AGPS</string>
+    <string name="About">Sobre</string>
+    <string name="Add">adicionar</string>
+    <string name="Add_Device">adicionar dispositivo</string>
+    <string name="Added_to_the_Emergency_Call_SOS_numbers">adicionado como número de emergência SOS</string>
+    <string name="Added_to_the_M1_Number">adicionado ao número M1</string>
+    <string name="Added_to_the_M2_Number">adicionado ao número M2</string>
+    <string name="Alert_Notification">Notificação de alerta</string>
+    <string name="Alerts_Notification">Notificação de alertas</string>
+    <string name="Are_you_sure_add">Tem certeza para adicionar</string>
+    <string name="Are_you_sure_change_to">Tem certeza para mudar para</string>
+    <string name="Are_you_sure_to_delete">Tem certeza para excluir</string>
+    <string name="AutoAnswer">Resposta-automática</string>
+    <string name="Auto_Answer">Resposta automática</string>
+    <string name="Call_Now">Ligar agora</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="Change">Trocar</string>
+    <string name="Change_Device">Trocar dispositivo</string>
+    <string name="Check_your_email_and_follow_the_instructions_to_reset_your_password">Veja seu mail e siga as instruções para redefinir sua senha</string>
+    <string name="Contact_Us">Contate-nos</string>
+    <string name="Delete_Device">Excluir dispositivo</string>
+    <string name="Dont_have_account">Você não tem uma conta?</string>
+    <string name="Dont_have_account_REGISTER">Você não tem uma conta? Registre-se</string>
+    <string name="Dutch">Holandês</string>
+    <string name="Email">E-mail</string>
+    <string name="Enable">Habilitar</string>
+    <string name="English">Inglês</string>
+    <string name="FORGOT_PASSWORD">Esqueceu a senha</string>
+    <string name="Fall_Detect">Detetor de quedas</string>
+    <string name="Fall_Detect_Alert_Number">Número de alerta do detetor de queda</string>
+    <string name="Fall_Detect_Number">Número de alerta do detetor de queda</string>
+    <string name="Fall_detect">Detetor de quedas</string>
+    <string name="Find__Location">Encontrar localização</string>
+    <string name="Forgot_Password">Esqueceu a senha?</string>
+    <string name="French">Francês</string>
+    <string name="GPS">GPS</string>
+    <string name="GPS_Auto_Report">Informe automático do GPS</string>
+    <string name="GPS_Setting">Configuração do GPS</string>
+    <string name="GPS_Setup">GPS Setup</string>
+    <string name="GPS_auto_report">Informe automático do GPS</string>
+    <string name="GPS_auto_report_is">Informe automático do GPS</string>
+    <string name="Geofence">Geofence</string>
+    <string name="Geofence_Alert_number">Número de alerta da área limítrofe,</string>
+    <string name="Geofence_Range">Alcance da área limítrofe</string>
+    <string name="Geofence_Setup">Configuração da área limítrofe</string>
+    <string name="Geofence_is">Geofence is</string>
+    <string name="German">Alemão</string>
+    <string name="Get">Mostrar</string>
+    <string name="Get_AutoAnswer">Mostrar resposta automática</string>
+    <string name="Get_Detect">Mostrar detetor</string>
+    <string name="Get_Language">Mostras idioma</string>
+    <string name="Get_Low_Battery_Warning">Mostrar advertência de nível baixo de bateria</string>
+    <string name="Get_M1_M2_number">Mostrar os números M1&amp;M2</string>
+    <string name="Get_Number_For_Verification">Get Number For Verification</string>
+    <string name="Help">Ajuda</string>
+    <string name="In_Meters">Em metros</string>
+    <string name="Insert_phone_number">Inserir o número do telefone</string>
+    <string name="LOGIN">Iniciar sessão</string>
+    <string name="Language">Idioma</string>
+    <string name="Language_has_been_replaced_to">Idioma foi substituído por</string>
+    <string name="Last_Update">Última atualização</string>
+    <string name="Low_Battery">Bateria fraca</string>
+    <string name="Low_Battery_Alert_Phone_Number">Número de telefone de alerta de bateria fraca</string>
+    <string name="Low_Battery_Warning">Aviso de bateria fraca</string>
+    <string name="Low_Battery_number">Numero de bateria fraca</string>
+    <string name="Low_battery_number">Numero de bateria fraca</string>
+    <string name="M1M2">M1/M2</string>
+    <string name="M1M2_Number">Números M1 e M2</string>
+    <string name="M1M2_number">Números M1 e M2</string>
+    <string name="M1_NUMBER">NÚMERO M1</string>
+    <string name="M1_Number">Número M1</string>
+    <string name="M2_NUMBER">Número M2</string>
+    <string name="M2_Number">Número M2</string>
+    <string name="Message_1">Mensagem 1</string>
+    <string name="Message_2">Mensagem 2</string>
+    <string name="Message_3">Mensagem 3</string>
+    <string name="Message_4">Mensagem 4</string>
+    <string name="Message_5">Mensagem 5</string>
+    <string name="Mute">Silencioso</string>
+    <string name="Name">Nome</string>
+    <string name="New_Alert_Phone_Number">New Alert Phone Number</string>
+    <string name="New_Number_For_Verification">New Number For Verification</string>
+    <string name="PHONE1">PHONE1</string>
+    <string name="PHONE2">PHONE2</string>
+    <string name="PHONE3">PHONE3</string>
+    <string name="PHONE4">PHONE4</string>
+    <string name="PHONE5">PHONE5</string>
+    <string name="PHONE6">PHONE6</string>
+    <string name="PHONE7">PHONE7</string>
+    <string name="PHONE8">PHONE8</string>
+    <string name="Password">Senha</string>
+    <string name="Periodic_Device_Check">Checagem periódica do dispositivo</string>
+    <string name="Periodic_device_check">Checagem periódica do dispositivo</string>
+    <string name="Phone_Number_For_Verification">Phone Number For Verification</string>
+    <string name="Please_choose_a_device_first">Por favor, selecione primeiramente um dispositivo</string>
+    <string name="Please_choose_new_device">Por favor, selecione um novo dispositivo</string>
+    <string name="Portuguese">Português</string>
+    <string name="Privacy_Terms">Privacidade e termos</string>
+    <string name="REGISTER">REGISTRAR-SE</string>
+    <string name="REGISTRATION">REGISTRO</string>
+    <string name="REPORT_TIME">REPORT TIME</string>
+    <string name="RESET_PASSWORD">RESTABELECER SENHA</string>
+    <string name="Ring_Only">somente som</string>
+    <string name="Ring_Scene">Modo do toque</string>
+    <string name="Ring_Vibration">som e vibração</string>
+    <string name="Ring___Tone">Som e amp Tom</string>
+    <string name="SET_About_GPS">SET About GPS</string>
+    <string name="SET_About_RING">SET About RING</string>
+    <string name="SET_SOS_Message">Estabelecer a mensagem de emergência</string>
+    <string name="SOS_Message">Mensagem SOS</string>
+    <string name="SOS_Message_help_info_coming_soon">SOS Message help info coming soon</string>
+    <string name="SOS_Number">Número do SOS</string>
+    <string name="SOS_Number_help_info_coming_soon_SOS_Number_help_info_coming_soon_SOS_Number_help_info_coming_soon">SOS Number help info coming soon SOS Number help info coming soon SOS Number help info coming soon</string>
+    <string name="Search">Busar</string>
+    <string name="Sensitivity_step">Nível de sensibilidade</string>
+    <string name="Set">Estabelecer</string>
+    <string name="Set_4digit_Access_Code">Estabelecer o código de acesso de 4 dígitos</string>
+    <string name="Set_AutoAnswer">Estabelecer resposta automática</string>
+    <string name="Set_Detect">Estabelecer para detetar</string>
+    <string name="Set_Language">Definir idioma</string>
+    <string name="Set_Low_Battery_Warning">Estabelecer alerta de bateria fraca</string>
+    <string name="Set_Number_For_Verification">Número de telefone para verificaçao</string>
+    <string name="Set_language_for_the_voice_prompt_announcement">Set language for the voice prompt announcement</string>
+    <string name="Set_new_password">Estabelecer nova senha</string>
+    <string name="Setings">Ajustes</string>
+    <string name="Setup_Energency_Call_SOS_Number">Estabelecer o número de chamada de emergência SOS</string>
+    <string name="Setup_M1_M2_number">Estabelecer número M1 e número M2</string>
+    <string name="Setup_M1_number">Estabelecer número M1</string>
+    <string name="Setup_M2_number">Estabelecer número M2</string>
+    <string name="Setup_SOS_Message">Definir a mensagem de SOS</string>
+    <string name="Setup_SOS_Number">Estabelecer o número de chamada de emergência SOS</string>
+    <string name="Spanish">Espanhol</string>
+    <string name="Sure">Certeza</string>
+    <string name="Switch_Device">Trocar dispositivo</string>
+    <string name="Time_Range">Time Range</string>
+    <string name="Time_range_changed_to">Time range changed to</string>
+    <string name="Tone_Profile">Tom e perfil</string>
+    <string name="Tone___Profile">Tom e perfil</string>
+    <string name="Turkish">Turco</string>
+    <string name="Type">Type</string>
+    <string name="Update_History">História de atualizações</string>
+    <string name="Vibration">vibração</string>
+    <string name="Volume">Ajuste de volume</string>
+    <string name="XXXX">XXXX</string>
+    <string name="_Control_Plane">AGPS</string>
+    <string name="_GPS">GPS</string>
+    <string name="_GPS_auto_report_timemin">Tempo do relatório automático do GPS (em min)</string>
+    <string name="_HIGH_sensitivity">ALTA sensibilidade</string>
+    <string name="_LOW_sensitivity">BAIXA sensibilidade</string>
+    <string name="_Mute">Silencioso</string>
+    <string name="_NORMAL">NORMAL</string>
+    <string name="_Ring_Only">somente som</string>
+    <string name="_Ring_Scence_Setup">configuração do som</string>
+    <string name="_Ring_Type_Setup">configuração do tipo de som</string>
+    <string name="_Ring_Vibration">som e vibração</string>
+    <string name="_Sensitivity_step">Nível de sensibilidade</string>
+    <string name="_Time_Rangedays">Intervalo de tempo(dias)</string>
+    <string name="_Vibration">vibração</string>
+    <string name="_Volume_Setup">configuração do volume</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">THOMSON</string>
+    <string msgid="4770915072144378781" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> richiede uno o più servizi di Google Play che non sono attualmente disponibili. Contatta lo sviluppatore per ricevere assistenza."</string>
+    <string msgid="2050101795821476669" name="common_google_play_services_enable_button">"Attiva Google Play Services"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà se non attivi Google Play Services."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Attiva Google Play Services"</string>
+    <string msgid="7118643132557593940" name="common_google_play_services_install_button">"Installa Google Play Services"</string>
+    <string msgid="1666261992894286769" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà senza Google Play Services, non presente sul tuo telefono."</string>
+    <string msgid="1701766622451829291" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà senza Google Play Services, non presente sul tuo tablet."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Installa Google Play Services"</string>
+    <string msgid="479501935061677276" name="common_google_play_services_invalid_account_text">"L\'account specificato non esiste su questo dispositivo. Scegli un altro account."</string>
+    <string msgid="5775407690646375078" name="common_google_play_services_invalid_account_title">"Account non valido"</string>
+    <string msgid="6857745590248226927" name="common_google_play_services_network_error_text">"È necessaria una connessione dati per connettersi a Google Play Services."</string>
+    <string msgid="4183541461338112307" name="common_google_play_services_network_error_title">"Errore di rete"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Errore Google Play Services"</string>
+    <string msgid="8897126254633757462" name="common_google_play_services_resolution_required_text">"Completa l\'azione richiesta da <ns1:g id="APP_NAME">%1$s</ns1:g>."</string>
+    <string msgid="7524004365913123453" name="common_google_play_services_resolution_required_title">"Operazione richiesta da Google Play Services"</string>
+    <string msgid="3111284987662714014" name="common_google_play_services_restricted_profile_text">"L\'accesso agli account da un profilo con limitazioni non è supportato."</string>
+    <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"Profilo con limitazioni"</string>
+    <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"Errore durante l\'accesso all\'account specificato. Scegli un altro account."</string>
+    <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"Accesso non riuscito"</string>
+    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> sta riscontrando problemi con Google Play Services. Se il problema persiste, contatta lo sviluppatore per ricevere assistenza."</string>
+    <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> si basa su Google Play Services, che non è supportato sul tuo dispositivo. Contatta il produttore per ricevere assistenza."</string>
+    <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Google Play Services"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Aggiorna"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà se non aggiorni Google Play Services."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Aggiorna Google Play Services"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà senza Google Play Services, attualmente in fase di aggiornamento."</string>
+    <string msgid="2270671469198016014" name="common_google_play_services_updating_title">"Aggiornamento di Google Play Services"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"È richiesta una nuova versione di Google Play Services. L\'aggiornamento automatico verrà eseguito a breve."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Apri sul telefono"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Accedi"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Accedi con Google"</string>
+    <string name="days">dias</string>
+    <string name="hello_world">Hello&amp;world!</string>
+    <string name="help_info_coming_soon">help info coming soon</string>
+    <string name="meters">metros</string>
+    <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"Trasmetti"</string>
+    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Ricerca di dispositivi…"</string>
+    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Connetti al dispositivo"</string>
+    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Disconnetti"</string>
+    <string msgid="3641544772007543920" name="mr_media_route_controller_no_info_available">"Nessuna informazione disponibile"</string>
+    <string msgid="8315773974194466049" name="mr_media_route_controller_pause">"Pausa"</string>
+    <string msgid="5214423499524760404" name="mr_media_route_controller_play">"Riproduci"</string>
+    <string msgid="379358765881274425" name="mr_media_route_controller_settings_description">"Impostazioni percorso"</string>
+    <string msgid="5398645111664294430" name="mr_media_route_controller_stop">"Interrompi trasmissione"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"Sistema"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Dispositivi"</string>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"Cancella ricerca"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"Cerca"</string>
+    <string name="ring_vibration_name">Ring&amp;Vibration</string>
+    <string name="s_Conecto">\'s Conecto</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="tone_profile_name">Tone &amp; Profile</string>
+    <string name="unset">änular (or suprimir or anular) it depends on its context</string>
+</resources>

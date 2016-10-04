@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="AGPS">AGPS</string>
+    <string name="AGPS_is">AGPS is</string>
+    <string name="AGPS_setup">Instelling AGPS</string>
+    <string name="About">Over</string>
+    <string name="Add">Toevoegen</string>
+    <string name="Add_Device">Toestel toevoegen</string>
+    <string name="Added_to_the_Emergency_Call_SOS_numbers">Als SOS-nummer toegevoegd</string>
+    <string name="Added_to_the_M1_Number">Als M1-nummer toegevoegd</string>
+    <string name="Added_to_the_M2_Number">Als M2-nummer toegevoegd</string>
+    <string name="Alert_Notification">Alarmmelding</string>
+    <string name="Alerts_Notification">Alarmmeldingen</string>
+    <string name="Are_you_sure_add">Weet u zeker dat u wilt toevoegen</string>
+    <string name="Are_you_sure_change_to">Weet u zeker dat u wilt wijzigen naar</string>
+    <string name="Are_you_sure_to_delete">Weet u zeker dat u wilt verwijderen</string>
+    <string name="AutoAnswer">Automatisch beantwoorden</string>
+    <string name="Auto_Answer">Automatisch beantwoorden</string>
+    <string name="Call_Now">Nu bellen</string>
+    <string name="Cancel">Annuleren</string>
+    <string name="Change">Wijzigen</string>
+    <string name="Change_Device">Toestel wijzigen</string>
+    <string name="Check_your_email_and_follow_the_instructions_to_reset_your_password">Controleer uw e-mail en volg de aanwijzingen op om uw wachtwoord te resetten.</string>
+    <string name="Contact_Us">Neem contact met ons op</string>
+    <string name="Delete_Device">Toestel verwijderen</string>
+    <string name="Dont_have_account">Heeft u geen account?</string>
+    <string name="Dont_have_account_REGISTER">Heeft u geen account? AANMELDEN</string>
+    <string name="Dutch">Nederlands</string>
+    <string name="Email">E-mail</string>
+    <string name="Enable">Inschakelen</string>
+    <string name="English">Engels</string>
+    <string name="FORGOT_PASSWORD">WACHTWOORD VERGETEN</string>
+    <string name="Fall_Detect">Valdetectie</string>
+    <string name="Fall_Detect_Alert_Number">Valdetectie alarmnummer</string>
+    <string name="Fall_Detect_Number">Valdetectie alarmnummer</string>
+    <string name="Fall_detect">Valdetectie</string>
+    <string name="Find__Location">Vind locatie</string>
+    <string name="Forgot_Password">Wachtwoord vergeten?</string>
+    <string name="French">Frans</string>
+    <string name="GPS">GPS</string>
+    <string name="GPS_Auto_Report">GPS automatisch rapport</string>
+    <string name="GPS_Setting">GPS-instellingen</string>
+    <string name="GPS_Setup">GPS Setup</string>
+    <string name="GPS_auto_report">GPS automatisch rapport</string>
+    <string name="GPS_auto_report_is">GPS automatisch rapport</string>
+    <string name="Geofence">Geofence</string>
+    <string name="Geofence_Alert_number">Geofence alarmnummer</string>
+    <string name="Geofence_Range">Geofencebereik</string>
+    <string name="Geofence_Setup">Geofence-instelling</string>
+    <string name="Geofence_is">Geofence is</string>
+    <string name="German">Duits</string>
+    <string name="Get">Tonen</string>
+    <string name="Get_AutoAnswer">Toon automatisch beantwoorden</string>
+    <string name="Get_Detect">Toon valdetectie</string>
+    <string name="Get_Language">Toon taal</string>
+    <string name="Get_Low_Battery_Warning">Toon waarschuwing voor lege batterij</string>
+    <string name="Get_M1_M2_number">Toon M1&amp;M2-nummer</string>
+    <string name="Get_Number_For_Verification">Get Number For Verification</string>
+    <string name="Help">Hulp</string>
+    <string name="In_Meters">in meters</string>
+    <string name="Insert_phone_number">Voeg telefoonnummer in</string>
+    <string name="LOGIN">INLOGGEN</string>
+    <string name="Language">Taal</string>
+    <string name="Language_has_been_replaced_to">Taal is gewijzigd in</string>
+    <string name="Last_Update">Laatste update</string>
+    <string name="Low_Battery">Lege batterij</string>
+    <string name="Low_Battery_Alert_Phone_Number">Lege batterij waarschuwing telefoonnummer</string>
+    <string name="Low_Battery_Warning">Waarschuwing voor lege batterij</string>
+    <string name="Low_Battery_number">Lege batterij nummer</string>
+    <string name="Low_battery_number">Lege batterij nummer</string>
+    <string name="M1M2">M1/M2</string>
+    <string name="M1M2_Number">M1/M2-nummer</string>
+    <string name="M1M2_number">M1/M2-nummer</string>
+    <string name="M1_NUMBER">M1-NUMMER</string>
+    <string name="M1_Number">M1-nummer</string>
+    <string name="M2_NUMBER">M2-nummer</string>
+    <string name="M2_Number">M2-nummer</string>
+    <string name="Message_1">Bericht 1</string>
+    <string name="Message_2">Bericht 2</string>
+    <string name="Message_3">Bericht 3</string>
+    <string name="Message_4">Bericht 4</string>
+    <string name="Message_5">Bericht 5</string>
+    <string name="Mute">Dempen</string>
+    <string name="Name">Naam</string>
+    <string name="New_Alert_Phone_Number">New Alert Phone Number</string>
+    <string name="New_Number_For_Verification">New Number For Verification</string>
+    <string name="PHONE1">PHONE1</string>
+    <string name="PHONE2">PHONE2</string>
+    <string name="PHONE3">PHONE3</string>
+    <string name="PHONE4">PHONE4</string>
+    <string name="PHONE5">PHONE5</string>
+    <string name="PHONE6">PHONE6</string>
+    <string name="PHONE7">PHONE7</string>
+    <string name="PHONE8">PHONE8</string>
+    <string name="Password">Wachtwoord</string>
+    <string name="Periodic_Device_Check">Periodieke controle van toestel</string>
+    <string name="Periodic_device_check">Periodieke controle van toestel</string>
+    <string name="Phone_Number_For_Verification">Phone Number For Verification</string>
+    <string name="Please_choose_a_device_first">Kies eerst een toestel.</string>
+    <string name="Please_choose_new_device">Kies nieuw toestel.</string>
+    <string name="Portuguese">Portugees</string>
+    <string name="Privacy_Terms">Privacy en Voorwaarden</string>
+    <string name="REGISTER">AANMELDEN</string>
+    <string name="REGISTRATION">REGISTRATIE</string>
+    <string name="REPORT_TIME">REPORT TIME</string>
+    <string name="RESET_PASSWORD">WACHTWOORD RESETTEN</string>
+    <string name="Ring_Only">Alleen laten overgaan</string>
+    <string name="Ring_Scene">Belmodus</string>
+    <string name="Ring_Vibration">Bellen en Trillen</string>
+    <string name="Ring___Tone">Ring- &amp; beltones</string>
+    <string name="SET_About_GPS">SET About GPS</string>
+    <string name="SET_About_RING">SET About RING</string>
+    <string name="SET_SOS_Message">Stel SOS-bericht in</string>
+    <string name="SOS_Message">SOS-bericht</string>
+    <string name="SOS_Message_help_info_coming_soon">SOS Message help info coming soon</string>
+    <string name="SOS_Number">SOS-nummer</string>
+    <string name="SOS_Number_help_info_coming_soon_SOS_Number_help_info_coming_soon_SOS_Number_help_info_coming_soon">SOS Number help info coming soon SOS Number help info coming soon SOS Number help info coming soon</string>
+    <string name="Search">Zoeken…</string>
+    <string name="Sensitivity_step">Gevoeligheidsniveau</string>
+    <string name="Set">Instellen</string>
+    <string name="Set_4digit_Access_Code">Stel 4-cijferige toegangscode in</string>
+    <string name="Set_AutoAnswer">Set Auto-Answer</string>
+    <string name="Set_Detect">Set Detect</string>
+    <string name="Set_Language">Stel taal in</string>
+    <string name="Set_Low_Battery_Warning">Set Low Battery Warning</string>
+    <string name="Set_Number_For_Verification">Telefoonnummer voor verificatie</string>
+    <string name="Set_language_for_the_voice_prompt_announcement">Set language for the voice prompt announcement</string>
+    <string name="Set_new_password">Set new password</string>
+    <string name="Setings">Instellingen</string>
+    <string name="Setup_Energency_Call_SOS_Number">Instelling SOS-nummer</string>
+    <string name="Setup_M1_M2_number">Instelling M1&amp;M2-nummer</string>
+    <string name="Setup_M1_number">Instelling M1-nummer</string>
+    <string name="Setup_M2_number">Instelling M2-nummer</string>
+    <string name="Setup_SOS_Message">Instelling SOS-bericht</string>
+    <string name="Setup_SOS_Number">Instelling SOS-nummer</string>
+    <string name="Spanish">Spaans</string>
+    <string name="Sure">Sure</string>
+    <string name="Switch_Device">Schakel van toestel</string>
+    <string name="Time_Range">Time Range</string>
+    <string name="Time_range_changed_to">Time range changed to</string>
+    <string name="Tone_Profile">Beltones &amp; Profiel</string>
+    <string name="Tone___Profile">Beltones &amp; Profiel</string>
+    <string name="Turkish">Turks</string>
+    <string name="Type">Type</string>
+    <string name="Update_History">Update-geschiedenis</string>
+    <string name="Vibration">Trillen</string>
+    <string name="Volume">Instelling volume</string>
+    <string name="XXXX">XXXX</string>
+    <string name="_Control_Plane">AGPS</string>
+    <string name="_GPS">GPS</string>
+    <string name="_GPS_auto_report_timemin">GPS automatisch rapport freq (min)</string>
+    <string name="_HIGH_sensitivity">Hoge gevoeligheid</string>
+    <string name="_LOW_sensitivity">Lage gevoeligheid</string>
+    <string name="_Mute">Dempen</string>
+    <string name="_Ring_Only">Alleen laten overgaan</string>
+    <string name="_Ring_Scence_Setup">Instelling belmodus</string>
+    <string name="_Ring_Type_Setup">Instelling beltype</string>
+    <string name="_Ring_Vibration">Bellen en Trillen</string>
+    <string name="_Sensitivity_step">Gevoeligheidsniveau</string>
+    <string name="_Time_Rangedays">Frequentie(dagen)</string>
+    <string name="_Vibration">Trillen</string>
+    <string name="_Volume_Setup">Instelling volume</string>
+    <string name="_normal">NORMAAL</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s、%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s、%2$s、%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">THOMSON</string>
+    <string msgid="4770915072144378781" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>には現在利用されていないGoogle Play開発者サービスが必要です。詳しくはデベロッパーにお問い合わせください。"</string>
+    <string msgid="2050101795821476669" name="common_google_play_services_enable_button">"Play開発者サービスの有効化"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行には、Google Play開発者サービスの有効化が必要です。"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play開発者サービスの有効化"</string>
+    <string msgid="7118643132557593940" name="common_google_play_services_install_button">"Google Play開発者サービスを入手"</string>
+    <string msgid="1666261992894286769" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行にはGoogle Play開発者サービスが必要ですが、お使いのスマートフォンにはインストールされていません。"</string>
+    <string msgid="1701766622451829291" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行にはGoogle Play開発者サービスが必要ですが、お使いのタブレットにはインストールされていません。"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play開発者サービスの入手"</string>
+    <string msgid="479501935061677276" name="common_google_play_services_invalid_account_text">"指定したアカウントはこの端末上に存在しません。別のアカウントを選択してください。"</string>
+    <string msgid="5775407690646375078" name="common_google_play_services_invalid_account_title">"無効なアカウント"</string>
+    <string msgid="6857745590248226927" name="common_google_play_services_network_error_text">"Google Play開発者サービスに接続するには、データ接続が必要です。"</string>
+    <string msgid="4183541461338112307" name="common_google_play_services_network_error_title">"ネットワークエラー"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play開発者サービスのエラー"</string>
+    <string msgid="8897126254633757462" name="common_google_play_services_resolution_required_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>に必要な操作を完了してください。"</string>
+    <string msgid="7524004365913123453" name="common_google_play_services_resolution_required_title">"Google Play 開発者サービスで操作が必要"</string>
+    <string msgid="3111284987662714014" name="common_google_play_services_restricted_profile_text">"制限付きプロフィールからのアカウントへのアクセスはサポートされていません。"</string>
+    <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"制限付きプロフィール"</string>
+    <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"指定されたアカウントへのログイン中にエラーが発生しました。別のアカウントを選択してください。"</string>
+    <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"ログインできませんでした"</string>
+    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」でGoogle Play開発者サービスに問題が発生しています。問題が解決しない場合は、デベロッパーにお問い合わせください。"</string>
+    <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>に必要なGoogle Play開発者サービスは、お使いの端末ではサポートされていません。詳しくは端末メーカーにお問い合わせください。"</string>
+    <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Google Play開発者サービス"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行にはGoogle Play開発者サービスの更新が必要です。"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play開発者サービスの更新"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。"</string>
+    <string msgid="2270671469198016014" name="common_google_play_services_updating_title">"Google Play開発者サービスの更新中"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play開発者サービスの新しいバージョンが必要です。まもなく自動更新されます。"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"スマートフォンで開く"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"ログイン"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Googleにログイン"</string>
+    <string name="days">dagen</string>
+    <string name="hello_world">Hello&amp;world!</string>
+    <string name="help_info_coming_soon">help info coming soon</string>
+    <string name="meters">meters</string>
+    <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"キャスト"</string>
+    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"端末を検索しています…"</string>
+    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"端末に接続"</string>
+    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"接続を解除"</string>
+    <string msgid="3641544772007543920" name="mr_media_route_controller_no_info_available">"情報がありません"</string>
+    <string msgid="8315773974194466049" name="mr_media_route_controller_pause">"一時停止"</string>
+    <string msgid="5214423499524760404" name="mr_media_route_controller_play">"再生"</string>
+    <string msgid="379358765881274425" name="mr_media_route_controller_settings_description">"ルーティング設定"</string>
+    <string msgid="5398645111664294430" name="mr_media_route_controller_stop">"キャストを停止"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"システム"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"端末"</string>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"検索をクリア"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"検索"</string>
+    <string name="ring_vibration_name">Ring&amp;Vibration</string>
+    <string name="s_Conecto">s Conecto</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="unset">Resetten</string>
+</resources>

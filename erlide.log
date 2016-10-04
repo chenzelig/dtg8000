@@ -1,0 +1,10 @@
+22:53:01,786 I: (ErlangCore.java:64) : Starting CORE Thread[Worker-0,5,main]
+22:53:01,819 I: (ErlangCore.java:79) : *** starting Erlide v0.29.12.201507101554 (core=0.24.13.201507101554) (model api=0.24.12.201507101554) *** (GBK) ui
+22:53:01,864 I: (ErlangCore.java:86) : Started CORE
+22:53:01,864 F: (ErlangPlugin.java:88) : Core started
+22:53:02,967 F: (BackendActivator.java:25) : Backend plugin started
+22:53:02,994 I: (ErlideUIPlugin.java:130) : Starting UI Thread[Worker-0,5,main]
+22:53:03,055 F: (ModelActivator.java:19) : Starting Erlang model api
+22:53:03,203 S: (OtpRpcProvider.java:20) : No Erlang runtime is installed! (null)
+22:53:03,204 F: (ModelActivator.java:30) : Started model api
+22:53:04,188 I: (ErlideUIPlugin.java:152) : Started UI

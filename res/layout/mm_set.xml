@@ -1,0 +1,217 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent" 
+    android:background="@drawable/thomson"
+    android:layout_height="40dp">    
+    
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="27dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_back" />
+
+       
+
+    
+    
+</LinearLayout>
+
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:id="@+id/sos_number"  >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"  >
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+	
+<LinearLayout   
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content" 
+	android:orientation="horizontal"
+	android:layout_marginRight="10dp"
+	android:layout_marginLeft="10dp"
+	android:background="@drawable/layoutform" > 	
+
+    <ImageView
+    android:id="@+id/submenu_pic"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="#00000000"
+    android:layout_weight="1"
+    android:src="@drawable/app_set_mm" />
+
+    <TextView 
+    android:id="@+id/text_display"  
+    android:layout_width="140dp"  
+    android:layout_height="50dp" 
+    android:layout_gravity="center_vertical" 
+    android:gravity="center_vertical" 
+    android:layout_weight="1"
+    android:text="@string/M1M2_Number"
+    android:textSize="20sp"/>
+    
+    <ImageView
+    android:id="@+id/mainmenu_return_but"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:background="#00000000"
+    android:layout_weight="1"
+    android:layout_gravity="center_vertical"
+    android:src="@drawable/back_icon" />"
+    
+    </LinearLayout>
+
+<LinearLayout   
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:layout_gravity="center_horizontal" 
+    android:gravity="center_horizontal"
+	android:background="#00000000" >
+    
+    <Button
+    android:id="@+id/set_enable"
+    android:layout_width="120dp"
+    android:layout_height="40dp"
+    android:background="@drawable/btn_red2"
+    android:text="@string/Set"
+    android:textColor="#FFFFFF" />
+    
+    <Button
+    android:id="@+id/get_disable"
+    android:layout_width="120dp"
+    android:layout_height="40dp"
+    android:background="@drawable/buttonform2"
+    android:text="@string/Get" 
+    android:textColor="#162982"/>
+    
+</LinearLayout>
+
+<ImageView 
+    android:layout_width="fill_parent"  
+    android:layout_height="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/top_header_line"/>
+	
+<TextView 
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_horizontal" 
+    android:gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:textSize="20dp"
+    android:text="@string/Setup_M1_M2_number"/>
+
+<LinearLayout   
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:layout_marginTop="10dp"
+	android:background="#00000000" >
+    
+<LinearLayout   
+	android:layout_width="wrap_content"  
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:layout_gravity="center_horizontal" 
+    android:gravity="center_horizontal"
+    android:layout_weight="1"
+    android:layout_margin="3dp"
+	android:background="@drawable/layoutform3" >
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="@string/M1_NUMBER" />
+	
+	<EditText  
+    android:id="@+id/mmnumber1_edit"  
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"  
+    android:background="@drawable/layoutform2"
+    android:singleLine="true"  
+   	android:maxLength="15"
+   	android:layout_weight="1"
+   	
+   	android:textSize="14sp"
+    /> 
+	
+	<Button
+    android:id="@+id/mm_number1_set"
+    android:layout_width="130dp"
+    android:layout_height="30dp"
+    android:layout_weight="1"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/btn_red" 
+    android:text="@string/Set" 
+    android:textColor="#FFFFFF" />
+</LinearLayout>
+
+<LinearLayout   
+	android:layout_width="wrap_content"  
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:layout_gravity="center_horizontal" 
+    android:gravity="center_horizontal"
+    android:layout_weight="1"
+    android:layout_margin="3dp"
+	android:background="@drawable/layoutform3" > 
+	
+	<TextView 
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content" 
+    android:layout_weight="1"
+    android:text="@string/M2_NUMBER" />
+	
+	<EditText  
+    android:id="@+id/mmnumber2_edit"  
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"  
+    android:background="@drawable/layoutform2"
+    android:singleLine="true"  
+   	android:maxLength="15"
+   	android:layout_weight="1"
+   	android:textSize="14dp"
+   	
+    /> 
+	
+	<Button
+    android:id="@+id/mm_number2_set"
+    android:layout_width="130dp"
+    android:layout_height="30dp"
+    android:layout_weight="1"
+    android:background="@drawable/btn_red" 
+    android:text="@string/Set"
+    android:layout_marginTop="5dp"
+    android:textColor="#FFFFFF"/>
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

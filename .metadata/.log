@@ -1,0 +1,40 @@
+!SESSION 2016-01-05 16:25:41.495 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.erlide.core 1 0 2016-01-05 16:28:24.645
+!MESSAGE Erlide log is in D:/Project/我的项目/DTG/src/dtg8000_app
+
+!ENTRY org.erlide.core 1 0 2016-01-05 16:28:24.743
+!MESSAGE *** starting Erlide v0.29.12.201507101554 (core=0.24.13.201507101554) (model api=0.24.12.201507101554) *** (GBK) ui
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-05 16:28:39.482
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\xiaot01'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-02-26 22:52:06.742 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.erlide.core 1 0 2016-02-26 22:53:01.693
+!MESSAGE Erlide log is in D:/Project/我的项目/DTG/src/dtg8000_app
+
+!ENTRY org.erlide.core 1 0 2016-02-26 22:53:01.820
+!MESSAGE *** starting Erlide v0.29.12.201507101554 (core=0.24.13.201507101554) (model api=0.24.12.201507101554) *** (GBK) ui
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-02-26 22:53:06.307
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\xiaot01'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

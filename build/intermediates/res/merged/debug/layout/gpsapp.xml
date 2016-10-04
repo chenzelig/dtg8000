@@ -1,0 +1,477 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/thomson"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="27dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_back" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/menu_set_gps"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F5F5F5"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/layoutform"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/submenu_pic"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:src="@drawable/app_set_gps" />
+
+                    <TextView
+                        android:id="@+id/text_display"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="@string/GPS"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/mainmenu_return_but"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:src="@drawable/back_icon"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#00000000"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/set_enable"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_red2"
+                        android:text="@string/Set"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:id="@+id/get_disable"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonform2"
+                        android:text="@string/Get"
+                        android:textColor="#162982" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/top_header_line" />
+
+                <fragment
+                    android:id="@+id/map"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    class="com.google.android.gms.maps.SupportMapFragment" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#00000000"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GPS Setup"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/agps_status_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/Enable"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/agps_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/app_home_enable" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#00000000"
+                    android:orientation="horizontal" >
+
+                    <RadioGroup
+                        android:id="@+id/group1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/gps"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:button="@drawable/rdo_radio1"
+                            android:text="@string/GPS"
+                            android:textSize="16sp" />
+
+                        <RadioButton
+                            android:id="@+id/userplane"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:button="@drawable/rdo_radio1"
+                            android:text="User Plane"
+                            android:visibility="gone"
+                            android:textSize="16sp" />
+
+                        <RadioButton
+                            android:id="@+id/controlplane"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:button="@drawable/rdo_radio1"
+                            android:text="@string/_Control_Plane"
+                            android:textSize="16sp" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#C0C0C0" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#00000000"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/Geofence_Setup"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/geofence_status_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Enable"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/geofence_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/app_home_enable" />
+                </LinearLayout>
+                
+                
+                <LinearLayout   
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:layout_marginTop="10dp"
+	android:layout_marginLeft="10dp"
+	android:padding="10dp"
+	android:layout_marginRight="10dp"
+	android:background="@drawable/layoutform3" >
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:layout_weight="1"
+    android:text="@string/Geofence_Alert_Number" />
+    
+    <LinearLayout   
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:layout_marginTop="10dp"
+	android:layout_weight="1"
+	android:background="#00000000" >
+	
+	<EditText  
+    android:id="@+id/geofencenumber_edit"  
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"  
+    android:background="@drawable/layoutform2"
+    android:layout_weight="1"
+   	android:hint="@string/Geofence_Alert_Number"/> 
+   	
+
+   	</LinearLayout>
+    
+</LinearLayout>
+                
+                
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#00000000"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:layout_weight="2"
+                    android:orientation="horizontal" >
+		                <TextView
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginTop="10dp"
+		                    android:text="@string/Geofence_Range"
+		                    android:textSize="16dp" />
+	
+		              
+	                </LinearLayout>
+
+	                <com.daktel.MobileAlertCommunicator.NumberSeekBar
+	                    android:id="@+id/bar0"
+	                    style="@style/NumberProgressBar_Default"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    android:focusable="false"
+	                    android:max="1000"
+	                    android:layout_weight="1"
+	                    android:maxHeight="3dp"
+	                    android:minHeight="3dp"
+	                    android:progressDrawable="@drawable/myseekbar"
+	                    android:thumb="@drawable/seedbar_0" />
+					</LinearLayout>
+	                
+                
+               
+                
+                
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#00000000"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/_GPS_auto_report_timemin"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/agps_gpsuatoreport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/Enable"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/agps_gpsuatoreport_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/app_home_enable" />
+                </LinearLayout>
+                
+                
+                
+                
+                
+              <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#00000000"
+                    android:orientation="vertical">"
+
+                    <TextView
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginTop="10dp"
+		                    android:text="@string/_GPS_auto_report_timemin"
+		                    android:textSize="16dp" />
+
+	<SeekBar 
+    android:id="@+id/volume_seek"
+    android:max="6"
+    android:progress="0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:progressDrawable="@drawable/myseekbar"
+    android:thumb="@drawable/seedbar_0"
+    android:maxHeight="3dp"
+    android:minHeight="3dp"    
+    android:layout_marginTop="10dp"
+    android:thumbOffset="1dp" />
+	
+	
+		
+<RelativeLayout   
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:background="#00000000" >
+	<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" 
+    android:layout_alignParentLeft="true"
+    android:gravity="left" 
+    android:text="0" />
+	
+<LinearLayout   
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:layout_alignParentLeft="true"
+	android:background="#00000000" >
+
+	<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_gravity="center_horizontal" 
+    android:gravity="right" 
+    android:text="5" />
+	
+	<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_gravity="center_horizontal" 
+    android:gravity="right" 
+    android:text="15" />
+	
+	<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_gravity="center_horizontal" 
+    android:gravity="right" 
+    android:text="30" />
+	
+	<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_gravity="center_horizontal" 
+    android:gravity="right" 
+    android:text="60" />
+	
+	<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_gravity="center_horizontal" 
+    android:gravity="right" 
+    android:text="120" />
+	
+	<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_gravity="center_horizontal" 
+    android:gravity="right" 
+    android:text="240" />
+
+</LinearLayout>
+</RelativeLayout>
+                    
+                    
+                    
+                    
+					</LinearLayout>         
+                
+                
+                
+                
+            </LinearLayout>
+            
+            
+            
+            
+            
+            
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

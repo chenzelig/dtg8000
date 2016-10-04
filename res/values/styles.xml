@@ -1,0 +1,50 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="CustomWindowTitleBackground">
+    	<item name="android:background">#3E3F43</item>    
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light">
+        
+        <item name="android:windowNoTitle">true</item> 
+		<item name="android:windowContentOverlay">@null</item> <!-- 去掉titlebar的阴影 -->
+        <item name="android:windowTitleSize">40dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+    <style name="NumberProgressBar_Default">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="max">100</item>
+        <item name="progress">0</item>
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#3498DB</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#3498DB</item>
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style>
+    
+    
+    <color name="transparent">#000000</color>  
+    <color name="color_bg_selected">#e0301e</color>  
+    <color name="color_bg_normal">#e7e7e8</color>  
+    <color name="color_text_selected">#ffffff</color>  
+    <color name="color_text_normal">#000000</color> 
+  <drawable name="color_seedbar_bg">#494949</drawable>
+  
+  
+  <drawable name="color_bigbutton_0">#3e3f43</drawable>
+  <drawable name="color_bigbutton_1">#959595</drawable>
+
+</resources>

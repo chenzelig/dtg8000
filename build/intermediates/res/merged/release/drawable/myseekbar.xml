@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- 
+	进度条背景
+	可由三种颜色组合成
+	startColor:最上面的颜色
+	centerColor:中间过度的颜色
+	endColor:最后的颜色
+	 -->
+	<item android:id="@android:id/background" android:drawable="@drawable/color_seedbar_bg">
+
+	</item>
+
+
+	<!-- 
+	次进度条样式
+	可由三种颜色组合成
+	startColor:最上面的颜色
+	centerColor:中间过度的颜色
+	endColor:最后的颜色
+	 -->
+	<item android:id="@android:id/secondaryProgress">
+		<clip>
+		<shape>
+			<gradient android:startColor="#FFE178"
+				android:endColor="#FFE178" android:angle="270" />
+		</shape>
+		</clip>
+	</item>
+	<!-- 
+	主进度条样式
+	可由三种颜色组合成
+	startColor:最上面的颜色
+	centerColor:中间过度的颜色
+	endColor:最后的颜色
+	 -->
+	<item android:id="@android:id/progress">
+		<clip>
+		    <shape>
+			<gradient android:startColor="#e30513"
+				android:endColor="#e30513" android:angle="270" />
+		</shape>
+		</clip>
+	</item>	
+</layer-list> 
